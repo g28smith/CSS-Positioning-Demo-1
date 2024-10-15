@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="eng-ca">
+  <head>
+    <title>Week 6: CSS Positioning (Demo 1)</title>
+        <!-- You might make a note to review this demo when you are making your own site in November -->
+    <meta charset="utf-8">
+    <style>
+      html {
+        font-family: "Helvetica Neu", "arial", sans-serif;
+        font-size: 36px;
+        text-align: center;
+        color: white;
+      }
+
+      body {
+        background-color: blue;
+      }
+
+      header {
+        background-color: yellow;
+        color: black;
+      }
+
+      #content {
+        width: 100%;
+        display: block;
+        float: left;
+        clear: right;
+        background-color: red;
+      }
+
+      .fullwidth {
+        width: 100%;
+        display: block;
+        float: left;
+        clear: right;
+        margin: auto;
+        margin-top: 2em;
+        height: 5em;
+      }
+
+      .block {
+        width: 32.75%;
+        float: left;
+        display: inline;
+        font-size: .75em;
+        margin-right: 5px;
+        background-color: violet;
+        margin-top: 1.5em;
+        height: 4em;
+      }
+
+      footer {
+        background-color: white;
+        color: black;
+      }
+    </style>
+
+  </head>
+  <!-- How to break up a page into containers -->
+  <body>
+    <header>
+      Morbi iaculis id nisl non tincidunt
+    </header>
+    <div id="content">
+      <div class="fullwidth">Cras scelerisque justo</div>
+      <div class="block">Pellentesque blandit</div>
+      <div class="block">sollicitudin interdum neque</div>
+      <div class="block">volutpat sem quis</div>
+    </div>
+    <footer>
+      In non scelerisque diam
+    </footer>
+  </body>
+</html>
